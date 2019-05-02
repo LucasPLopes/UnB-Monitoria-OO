@@ -1,3 +1,5 @@
+// gcc -std=c++11 IMC.cpp -o saida
+
 #include<iostream>
 #include<string>
 using namespace std;

@@ -48,7 +48,7 @@ Carro::Carro(int nroRodas, Roda roda){
 }
 
 string Carro::info(){
-	string s = "Veiculo com "+ to_string(nroRodas)+" aro "+to_string(roda.getAro()) +" rodas do tipo "+roda.getTipo();
+	string s = "Veiculo com " + to_string(nroRodas) + " aro " +to_string(roda.getAro()) + " rodas do tipo " + roda.getTipo();
 	return s;
 	
 }

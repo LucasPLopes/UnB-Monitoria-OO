@@ -27,8 +27,9 @@ public class PrintTask implements Runnable{
 	}
 	
 	
-	public static void main(String [] args){
+	/*public static void main(String [] args){
 			PrintTask pt = new PrintTask("Minha Thread");
 			pt.run();			
 	}	
+	*/
 }

@@ -15,9 +15,19 @@ class E{
     {
         System.out.println("M2()");
     }
+    
 
     static float m10(){
         return 10f;
+    }
+
+    public static String mX(){
+        D d = new D();
+        return d.at19;
+    }
+    public static void main(String[] args) {
+        System.out.println( mX());
+
     }
 
 }

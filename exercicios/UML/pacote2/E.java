@@ -27,7 +27,8 @@ class E{
     }
     public static void main(String[] args) {
         System.out.println( mX());
-
+        System.out.println( new E().m10());
+        System.out.println( new E().d.at19);
     }
 
 }

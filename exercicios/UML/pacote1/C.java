@@ -21,6 +21,10 @@ public class C extends B{
     public static void main(String[] args) {
         
         new C().a.m0();
+        C c = new C();
+
+        c.at16();
+        c.m1();
         
     }
 

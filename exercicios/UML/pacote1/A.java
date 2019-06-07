@@ -1,9 +1,9 @@
-package pacote1;
+ package pacote1;
 
 class A {
     public int at1;
     private String at2 = "";
-    protected float at = 7f;
+    protected float at3 = 7f;
     String at4 = "";
     static String at0 = "at0";
    

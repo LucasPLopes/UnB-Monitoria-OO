@@ -19,6 +19,7 @@ public class D extends C{
     }
 
     public static void main(String[] args) {
+        System.out.println(new D().at19);
         
     }
 

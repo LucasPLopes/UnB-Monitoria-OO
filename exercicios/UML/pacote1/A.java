@@ -3,8 +3,10 @@ package pacote1;
 class A {
     public int at1;
     private String at2 = "";
-    protected float at3 = 7f;
+    protected float at = 7f;
     String at4 = "";
+    static String at0 = "at0";
+   
 
     public void m0() {
         System.out.println("M0()");
@@ -22,4 +24,10 @@ class A {
         return "M5()";
     }
 
+    public static void main(String[] args) {
+        
+        System.out.println(new A().m5());
+        System.err.println(new A().at0);
+        
+    }
 }

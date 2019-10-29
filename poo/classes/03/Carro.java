@@ -21,6 +21,12 @@ public class Carro{
         this.passageiros = passageiros;
         this.combustivel = combustivel;
     }
+
+    @Override
+    public String toString() {
+        return "Carro [combustivel=" + combustivel + ", marca=" + marca + ", passageiros=" + passageiros + ", tipo="
+                + tipo + "]";
+    }
     
     
 }

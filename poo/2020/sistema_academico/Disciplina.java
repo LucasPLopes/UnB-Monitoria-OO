@@ -11,7 +11,7 @@ public class Disciplina{
     
     Turma criarTurma(){
         Turma nova = new Turma();
-        nova.codigo  = "T" +  turmas.size() +1;
+        nova.codigo  = "T" +  (turmas.size() +1);
         turmas.add(nova);
         return turmas.get(turmas.size() -1);
     }
@@ -22,4 +22,10 @@ public class Disciplina{
             System.out.println(t);
         }
     }
+
+    @Override
+    public String toString() {
+        return "Disciplina [cargaHoraria=" + cargaHoraria + ", codigo=" + codigo + ", nome=" + nome + ", turmas="
+                + turmas + "]";
+    }    
 }

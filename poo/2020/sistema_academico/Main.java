@@ -43,6 +43,9 @@ public class Main{
         turmaED.setProfessor(prof02);
         turmaED.matricularAluno(aluno01);
 
+        Turma turmaED2 = ed.criarTurma();
+        turmaED2.capacidadeMaxima = 80;
+        turmaED2.setProfessor(prof02);
 
 
 
@@ -51,9 +54,9 @@ public class Main{
 
         System.out.println("Disciplinas cadastradas na UnB");
         for(Disciplina d :unb.disciplinas){
-            System.out.println("Disciplina: "+ d.nome + " | codigo: "+d.codigo +" | carga: "+ d.cargaHoraria);
+            System.out.println(d);
         }
-
+        System.out.println("");
         oo.imprimirRelatorio();
         ed.imprimirRelatorio();
 
